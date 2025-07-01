@@ -1,11 +1,11 @@
 # Fleet_Data_Analysis
 
-Introduction: 
+## Introduction: 
 
 This report provides a comprehensive analysis of an aircraft fleet dataset, including details such as aircraft type, parent airline, operational status (Current, Future, Historic), unit cost, orders, total cost, and average age. The objective is to understand trends in fleet composition, investment, and aging patterns across airlines and aircraft models, and to highlight potential insights relevant for decision-making in fleet management and procurement planning.
 This report aims to explore and analyze the dataset on HR attrition. Let’s delve into the details:
 
-1.	Data Overview:
+## 1.	Data Overview:
 
 -	The dataset includes the following key features:
 
