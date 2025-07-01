@@ -43,37 +43,37 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
 • Indicates the dataset is heavily focused on active fleets, useful for operational planning.
 
--	Top Aircraft Types:
+### -	Top Aircraft Types:
 
 • Boeing 737 and Airbus A320 are the most common types, reflecting their widespread use in short to medium-haul routes.
 
 • Airbus and Boeing models dominate the top 20 list, suggesting their market leadership.
 
--	Parent Airline Distribution:
+### -	Parent Airline Distribution:
 
 • Lufthansa, IAG, and Air France/KLM have the largest fleet sizes.
 
 • The dataset is skewed toward European and North American carriers, with notable presence from Asia (e.g., Air China, Qatar Airways).
 
--	Fleet Cost Trends:
+### -	Fleet Cost Trends:
 
 • American Airlines has the highest total aircraft cost (~$121 billion), followed by Lufthansa and United Airlines.
 
 • Airlines with both high fleet cost and high future orders (e.g., American, United) indicate ongoing expansion and fleet renewal.
 
--	Aircraft Age vs Cost:
+### -	Aircraft Age vs Cost:
 
 • A negative correlation exists: newer aircraft tend to have higher unit costs, as shown by boxplots and scatter plots.
 
 • Older aircraft (15–30 years) have significantly lower costs, aligning with market depreciation.
 
--	Correlation Analysis:
+### -	Correlation Analysis:
 
 • Fleet size and total cost are strongly correlated (0.69).
 
 • Orders and total cost also show moderate correlation (0.53), implying investment is often tied to planned expansions.
 
-4.	Visualizations:
+## 4.	Visualizations:
 
 • Bar plots and countplots were used to show aircraft type and airline distributions.
 
@@ -83,7 +83,7 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
 • Scatter plots highlighted relationships (e.g., cost vs age).
 
-Conclusion:
+## Conclusion:
 
 This analysis of the aircraft fleet dataset reveals:
 
