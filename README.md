@@ -7,7 +7,7 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
 ## 1.	Data Overview:
 
--	The dataset includes the following key features:
+#### -	The dataset includes the following key features:
 
   •	Parent_Airline: Airline operating the aircraft.
 
@@ -23,11 +23,11 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
   •	Total_Cost: Derived as UnitCost × Total Aircraft.
 
--	These variables provide an overview of the size, investment, and status of airline fleets globally.
+#### -	These variables provide an overview of the size, investment, and status of airline fleets globally.
   
 ## 2.	Data Preparation:
 
--	Before conducting the analysis:
+#### -	Before conducting the analysis:
 
 •	Null values were checked using df.isnull().sum() and appropriate handling (imputation or exclusion) was performed.
 
