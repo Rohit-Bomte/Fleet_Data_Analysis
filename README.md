@@ -9,19 +9,19 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
 -	The dataset includes the following key features:
 
-•	Parent_Airline: Airline operating the aircraft.
+  •	Parent_Airline: Airline operating the aircraft.
 
-•	Aircraft_Type: Type/model of aircraft (e.g., B737, A320).
+  •	Aircraft_Type: Type/model of aircraft (e.g., B737, A320).
 
-•	Current, Historic, Future: Fleet count by operational status.
+  •	Current, Historic, Future: Fleet count by operational status.
 
-•	UnitCost: Cost per aircraft in million USD.
+  •	UnitCost: Cost per aircraft in million USD.
 
-•	Orders: Number of aircraft ordered.
+  •	Orders: Number of aircraft ordered.
 
-•	 Average_Age: Mean age of aircraft in years.
+  •	 Average_Age: Mean age of aircraft in years.
 
-•	Total_Cost: Derived as UnitCost × Total Aircraft.
+  •	Total_Cost: Derived as UnitCost × Total Aircraft.
 
 -	These variables provide an overview of the size, investment, and status of airline fleets globally.
   
