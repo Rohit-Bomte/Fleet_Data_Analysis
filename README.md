@@ -25,7 +25,7 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
 -	These variables provide an overview of the size, investment, and status of airline fleets globally.
   
-2.	Data Preparation:
+## 2.	Data Preparation:
 
 -	Before conducting the analysis:
 
@@ -35,9 +35,9 @@ This report aims to explore and analyze the dataset on HR attrition. Let’s del
 
 •	Outliers in columns like Average_Age were removed using the IQR method to avoid skewing the analysis.
 
-3.	Exploratory Data Analysis (EDA):
+## 3.	Exploratory Data Analysis (EDA):
 
--	Fleet Status Distribution:
+### -	Fleet Status Distribution:
 
 • Current aircraft dominate the dataset with over 20,000 entries, followed by Historic (~16,000) and Future (~600).
 
