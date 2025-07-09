@@ -12,11 +12,11 @@ To analyze the aircraft fleet across multiple airlines based on aircraft type, o
 
 ## 📊 Key Features of the Analysis
 
-- 🔹 Fleet count and cost segmented by **Current**, **Historic**, and **Future** aircraft.
-- 🔹 Insights into **most popular aircraft types** (e.g., A320, B737).
-- 🔹 Airline-wise fleet size, average age, and total investment.
-- 🔹 Aircraft **age vs. unit cost** relationships showing depreciation trends.
-- 🔹 Correlation between fleet size, orders, and total cost.
+-  Fleet count and cost segmented by **Current**, **Historic**, and **Future** aircraft.
+-  Insights into **most popular aircraft types** (e.g., A320, B737).
+-  Airline-wise fleet size, average age, and total investment.
+-  Aircraft **age vs. unit cost** relationships showing depreciation trends.
+-  Correlation between fleet size, orders, and total cost.
 
 ---
 
