@@ -1,101 +1,78 @@
-# Fleet_Data_Analysis
+# ✈️ Fleet Data Analysis
 
-## Introduction: 
+This project delivers a detailed analysis of global commercial aircraft fleet data. The dashboard and analysis highlight patterns in fleet composition, aircraft cost, age, airline investments, and procurement trends. The goal is to empower data-driven decision-making for airline strategists, analysts, and procurement planners.
 
-This report provides a comprehensive analysis of an aircraft fleet dataset, including details such as aircraft type, parent airline, operational status (Current, Future, Historic), unit cost, orders, total cost, and average age. The objective is to understand trends in fleet composition, investment, and aging patterns across airlines and aircraft models, and to highlight potential insights relevant for decision-making in fleet management and procurement planning.
-This report aims to explore and analyze the dataset on HR attrition. Let’s delve into the details:
+---
 
-## 1.	Data Overview:
+## 📌 Project Objective
 
-#### -	The dataset includes the following key features:
+To analyze the aircraft fleet across multiple airlines based on aircraft type, operational status (Current, Future, Historic), cost, age, and orders. The analysis uncovers trends in fleet modernization, investment strategy, and market dominance of major aircraft manufacturers.
 
-  •	Parent_Airline: Airline operating the aircraft.
+---
 
-  •	Aircraft_Type: Type/model of aircraft (e.g., B737, A320).
+## 📊 Key Features of the Analysis
 
-  •	Current, Historic, Future: Fleet count by operational status.
+- 🔹 Fleet count and cost segmented by **Current**, **Historic**, and **Future** aircraft.
+- 🔹 Insights into **most popular aircraft types** (e.g., A320, B737).
+- 🔹 Airline-wise fleet size, average age, and total investment.
+- 🔹 Aircraft **age vs. unit cost** relationships showing depreciation trends.
+- 🔹 Correlation between fleet size, orders, and total cost.
 
-  •	UnitCost: Cost per aircraft in million USD.
+---
 
-  •	Orders: Number of aircraft ordered.
+## 🧹 Data Preparation
 
-  •	 Average_Age: Mean age of aircraft in years.
+- ✅ Checked and handled missing values.
+- ✅ Verified and corrected data types.
+- ✅ Removed outliers (especially in `Average_Age`) using IQR for clean analysis.
+- ✅ Derived new columns like `Total_Cost` = `UnitCost × Total Aircraft`.
 
-  •	Total_Cost: Derived as UnitCost × Total Aircraft.
+---
 
-#### -	These variables provide an overview of the size, investment, and status of airline fleets globally.
-  
-## 2.	Data Preparation:
+## 📈 Exploratory Data Analysis (EDA)
 
-#### -	Before conducting the analysis:
+- ✈️ **Fleet Status Breakdown**: Most aircraft are currently operational.
+- 🏢 **Top Parent Airlines**: Lufthansa, IAG, and American Airlines top the fleet charts.
+- 🛩 **Top Aircraft Types**: Airbus A320 and Boeing 737 dominate global fleets.
+- 💰 **Cost Analysis**: American Airlines leads in investment, exceeding $120B.
+- 📉 **Age vs Cost Trends**: Newer aircraft cost more; older models are heavily depreciated.
+- 📊 **Correlation Insights**:
+  - Fleet Size ↔ Total Cost: Strong positive correlation (0.69)
+  - Orders ↔ Total Cost: Moderate positive correlation (0.53)
 
-•	Null values were checked using df.isnull().sum() and appropriate handling (imputation or exclusion) was performed.
+---
 
-•	Data types were verified and cleaned.
+## 📉 Visualizations
 
-•	Outliers in columns like Average_Age were removed using the IQR method to avoid skewing the analysis.
+- 📊 Bar Charts: Aircraft type & airline distribution
+- 📦 Boxplots: Unit cost and aircraft age spread
+- 📐 Scatter Plots: Cost vs Age analysis
+- 📚 Stacked Bar Charts: Fleet type per airline
 
-## 3.	Exploratory Data Analysis (EDA):
+---
 
-### -	Fleet Status Distribution:
+## 🧠 Insights & Conclusion
 
-• Current aircraft dominate the dataset with over 20,000 entries, followed by Historic (~16,000) and Future (~600).
+- Airbus and Boeing dominate global aviation.
+- Airlines like Lufthansa, American, and United are investing heavily in fleet expansion.
+- Modern aircraft cost more but bring efficiency; older aircraft are more affordable but aging.
+- Fleet size and total cost are closely tied, helping identify top spenders in global aviation.
+- The data highlights fleet modernization efforts and guides procurement planning.
 
-• Indicates the dataset is heavily focused on active fleets, useful for operational planning.
+---
 
-### -	Top Aircraft Types:
+## 🛠 Tools Used
 
-• Boeing 737 and Airbus A320 are the most common types, reflecting their widespread use in short to medium-haul routes.
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
 
-• Airbus and Boeing models dominate the top 20 list, suggesting their market leadership.
+---
 
-### -	Parent Airline Distribution:
+## 🙋‍♂️ Author
 
-• Lufthansa, IAG, and Air France/KLM have the largest fleet sizes.
+**Rohit Bomte**  
+[LinkedIn](https://www.linkedin.com/in/rohit-bomte)
 
-• The dataset is skewed toward European and North American carriers, with notable presence from Asia (e.g., Air China, Qatar Airways).
+---
 
-### -	Fleet Cost Trends:
-
-• American Airlines has the highest total aircraft cost (~$121 billion), followed by Lufthansa and United Airlines.
-
-• Airlines with both high fleet cost and high future orders (e.g., American, United) indicate ongoing expansion and fleet renewal.
-
-### -	Aircraft Age vs Cost:
-
-• A negative correlation exists: newer aircraft tend to have higher unit costs, as shown by boxplots and scatter plots.
-
-• Older aircraft (15–30 years) have significantly lower costs, aligning with market depreciation.
-
-### -	Correlation Analysis:
-
-• Fleet size and total cost are strongly correlated (0.69).
-
-• Orders and total cost also show moderate correlation (0.53), implying investment is often tied to planned expansions.
-
-## 4.	Visualizations:
-
-• Bar plots and countplots were used to show aircraft type and airline distributions.
-
-• Stacked bar charts visualized aircraft types per airline.
-
-• Boxplots captured spread and outliers in cost and age.
-
-• Scatter plots highlighted relationships (e.g., cost vs age).
-
-## Conclusion:
-
-This analysis of the aircraft fleet dataset reveals:
-
-- Airbus and Boeing dominate global commercial fleets.
-  
-- Lufthansa and American Airlines maintain some of the largest and most expensive fleets.
-  
-- Current operational fleets are the main focus, with limited future order data captured.
-  
-- Fleet modernization is evident through the presence of newer, high-cost aircraft.
-  
-- Correlation findings confirm that total cost is primarily driven by fleet size and ongoing orders, while average age shows weaker influence.
-
-These insights can assist aviation analysts, procurement teams, and airline strategists in fleet planning, investment decisions, and aging asset evaluations.
-
+> 🚀 Feel free to fork, star ⭐, or contribute to this project if you found it helpful!
